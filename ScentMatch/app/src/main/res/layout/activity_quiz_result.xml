@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/resultScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/background_light_grey"> <LinearLayout
+    android:id="@+id/resultRootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your ScentMatch Result"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/text_dark"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:id="@+id/scentType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You're Woody! Here's your perfect fragrance match."
+        android:textAlignment="center"
+        android:textSize="24sp" android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/text_dark"
+        android:layout_marginBottom="24dp"
+        android:lineSpacingExtra="6dp" /> <androidx.cardview.widget.CardView
+    android:id="@+id/resultCard" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="32dp"
+    android:layout_gravity="center"
+    android:elevation="8dp"
+    app:cardCornerRadius="18dp"
+    app:cardBackgroundColor="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="28dp">
+
+        <ImageView
+            android:id="@+id/perfumeImage"
+            android:layout_width="220dp" android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="24dp"
+            android:contentDescription="Recommended Perfume Image" /> <TextView
+        android:id="@+id/perfumeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perfume Name"
+        android:textSize="26sp" android:textStyle="bold"
+        android:fontFamily="sans-serif-black" android:textColor="#000000"
+        android:layout_marginBottom="12dp" /> <TextView
+        android:id="@+id/perfumeDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This scent perfectly captures your essence – bold, elegant, and timeless."
+        android:textSize="18sp" android:textColor="@color/text_medium"
+        android:fontFamily="sans-serif-light" android:textAlignment="center"
+        android:lineSpacingExtra="8dp" android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnBackToHome"
+        style="@style/GoldenButtonStyle" android:layout_width="match_parent" android:layout_height="60dp" android:text="Back to Home"
+        android:textSize="20sp" android:layout_marginTop="12dp" />
+
+</LinearLayout>
+</ScrollView>

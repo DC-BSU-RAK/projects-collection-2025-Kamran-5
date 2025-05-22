@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="woody_background">#E8D8C3</color>
+    <color name="floral_background">#FFF0F5</color>
+    <color name="fresh_background">#E0F7FA</color>
+    <color name="my_green">#4CAF50</color>
+
+    <color name="text_dark">#222222</color>
+    <color name="text_medium">#666666</color>
+    <color name="background_light_grey">#F0F2F5</color>
+    <color name="transparent_black_overlay">#66000000</color> <color name="input_background_light">#F5F5F5</color>
+    <color name="input_border_light">#DDDDDD</color>
+    <color name="input_hint_dark">#AAAAAA</color>
+
+    <color name="goldenrod_default">#DAA520</color>
+    <color name="goldenrod_pressed">#D4AF37</color>
+    <color name="goldenrod_stroke">#CCAA00</color>
+    <color name="goldenrod_pressed_stroke">#A68D2C</color>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ScentMatch</string>
+    <string name="you_are">You are: %1$s</string>
+    <string-array name="scent_types">
+        <item>Floral</item>
+        <item>Woody</item>
+        <item>Fresh</item>
+        <item>Spicy</item>
+        <item>Fruity</item>
+    </string-array>
+
+</resources>
